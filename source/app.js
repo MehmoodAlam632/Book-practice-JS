@@ -42,7 +42,7 @@
 // let name = "Mehmood Alam";
 // alert(`Hello ${name}!`);
 
-// Chapter # 9 if statements//////////////
+// Chapter # 9 & 10 if statements//////////////
 // let user = prompt("Enter your country Name");
 // if(user === "Pakistan"){
 //     alert("You are pakistani");
@@ -55,17 +55,64 @@
 // if (user == userInput) {
 //     alert("Correct!");
 // };
-let user = prompt();
-if (user === "pakistan"){
-    alert("Wellcome");
-} else if (user === "Madina"){
-    alert("Wellcome");
-} else if (user === "Makkah"){
-    alert("Wellcome");
-} else if (user === "turkey"){
-    alert("Wellcome");
-} else if (user === "kuwait"){
-    alert("Wellcome");
-} else {
-    alert("Sorry not found");
-};
+
+// Chapter # 12 if...else and else if statements//////////////
+// let user = prompt();
+// if (user === "pakistan") {
+//   alert("Wellcome");
+// } else if (user === "Madina") {
+//   alert("Wellcome");
+// } else if (user === "Makkah") {
+//   alert("Wellcome");
+// } else if (user === "turkey") {
+//   alert("Wellcome");
+// } else if (user === "kuwait") {
+//   alert("Wellcome");
+// } else {
+//   alert("Sorry not found");
+// }
+
+// Chapter # 13 Testing sets of conditions//////////////
+// let name = prompt();
+// let age = 24;
+// let rollNumber = 110050;
+// if (name === "Mehmood" && age > 24 && rollNumber === 110050) {
+//   alert("Congratulation you are eligble!");
+// } else {
+//   alert("Sorry try again");
+// };
+
+// let name = prompt();
+// let age = 24;
+// let rollNumber = 110050;
+// if (name === "Mehmood" || age > 24 || rollNumber !== 110050) {
+//   alert("Congratulation you are eligble!");
+// } else {
+//   alert("Sorry try again");
+// };
+
+// let name = prompt("Enter your name?");
+// let age = +prompt("Enter your age?");
+// let city = prompt("Enter city name?");
+// let country = prompt("Enter country name?");
+// let gender = prompt("Are you male or Female?");
+// let religion = "Islam";
+// if (
+//   //   name === ("Mehmood" || "Fareed" || "Faraz" || "Siddique") &&
+//   name === "Mehmood" ||
+//   name === "Fareed" ||
+//   name === "Faraz" && age > 18 && city === "Makkah" ||
+//   city === "Madina" ||
+//   city === "Lahore" ||
+//   city === "Islamabad" ||
+//   city === "Karachi" && country === "Pakistan" && gender === "Male" ||
+//   gender === "Female" && religion === "Islam"
+// ) {
+//   alert("Congratulation you are eligble!");
+// } else {
+//   alert("you are not eligble!");
+// }
+
+// Chapter # 15 Array//////////////
+// const cities = ["Karachi","Multan","Islamabad","Lahore"];
+// console.log('cities :>> ', cities[0]);
